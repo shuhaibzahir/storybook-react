@@ -1,0 +1,11 @@
+:root{
+    --primary: blue;
+    --secondary: gray;
+}
+
+.primary{
+    background-color: var(--primary);
+}
+.secondary{
+    background-color: var(--secondary);
+}

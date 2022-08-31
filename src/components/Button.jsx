@@ -3,9 +3,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import "./Button.css"
-const Button = ({label, type}) => {
+const Button = ({label, type, handleClick}) => {
   return (
-    <button className={`${type}`}>{label}</button>
+    <button onClick={handleClick} className={`${type}`}>{label}</button>
   )
 }
 
